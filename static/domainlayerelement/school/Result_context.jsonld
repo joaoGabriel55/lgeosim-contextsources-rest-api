@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type",
+ 
+    "Result": "LGeoSIMOntology:Result",
+    "Teacher": "LGeoSIMOntology:Teacher",
+    "Discipline": "LGeoSIMOntology:Discipline",
+
+    "grade": "LGeoSIMOntology:grade",
+    "attendanceDisc": "LGeoSIMOntology:attendanceDisc",
+    "result": "LGeoSIMOntology:result",
+
+    "reportedBy": {	
+      "@id": "LGeoSIMOntology:reportedBy",
+      "@type": "@id"
+    },
+    "relatedToDisc": {
+      "@id": "LGeoSIMOntology:relatedToDisc",
+      "@type": "@id"
+    }
+  }    
+}
+

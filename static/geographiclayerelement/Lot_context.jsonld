@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type", 
+
+    "Block": "LGeoSIMOntology:Block",
+    "Lot": "LGeoSIMOntology:Lot",
+
+    "description":"https://schema.org/description",
+    "location": "http://uri.etsi.org/ngsi-ld/location",
+
+    "area_terreno": "LGeoSIMOntology:area_terreno",
+    "id_edificacao": "LGeoSIMOntology:id_edificacao",
+    "inscricao": "LGeoSIMOntology:inscricao",
+    "id_lote": "LGeoSIMOntology:id_lote",
+    "n_pavimentos": "LGeoSIMOntology:n_pavimentos",
+    "ac_privativa": "LGeoSIMOntology:ac_privativa",
+    "ac_total": "LGeoSIMOntology:ac_total",
+    "bairro": "LGeoSIMOntology:bairro",
+
+
+    "neighborOf": {
+      "@id": "LGeoSIMOntology:neighborOf",
+      "@type": "@id",
+      "@container":"@list"
+    },
+    "isPartOf": {
+      "@id": "LGeoSIMOntology:isPartOf",
+      "@type": "@id"
+    }
+
+  }  
+}
+

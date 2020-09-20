@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type",
+ 
+    "Student": "LGeoSIMOntology:Student",
+    "School": "LGeoSIMOntology:School",
+    "SeriesClass": "LGeoSIMOntology:SeriesClass",
+    "Result": "LGeoSIMOntology:Result",
+    "Person": "LGeoSIMOntology:Person",
+
+    "SUScard":"LGeoSIMOntology:SUScard",
+    "bolsaFamilia": "LGeoSIMOntology:BolsaFamilia",
+    "schoolBus": "LGeoSIMOntology:schoolBus",
+    "spacialNeeds": "LGeoSIMOntology:specialNeeds",
+    "inepCodSt": "LGeoSIMOntology:inepCodSt",
+    "status": "LGeoSIMOntology:status",
+    "name": "LGeoSIMOntology:name",
+    "address": "LGeoSIMOntology:address",
+    "CPF": "LGeoSIMOntology:CPF",
+    "RG": "LGeoSIMOntology:RG",
+    "birth": "LGeoSIMOntology:birth",
+    "gender": "LGeoSIMOntology:gender",
+    "age": "LGeoSIMOntology:age",
+
+
+    "hasDiscResults": {	
+      "@id": "LGeoSIMOntology:hasDiscResults",
+      "@container": "@list"
+    },
+    "hasSiblings": {	
+      "@id": "LGeoSIMOntology:hasSiblings",
+      "@container": "@list"
+    },
+    "hasParents": {	
+      "@id": "LGeoSIMOntology:hasParents",
+      "@container": "@list"
+    },
+    "attachedToSchoolS": {
+      "@id": "LGeoSIMOntology:attachedToSchoolS",
+      "@type": "@id"
+    },
+    "attachedToSeriesClassS": {
+      "@id": "LGeoSIMOntology:attachedToSeriesClassS",
+      "@type": "@id"
+    }
+  }    
+}
+

@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type",
+ 
+    "School": "LGeoSIMOntology:School",
+    "TeachingLevel": "LGeoSIMOntology:TeachingLevel",
+    "NeighborHood": "LGeoSIMOntology:NeighborHood",
+
+    "description":"https://schema.org/description",
+    "size":"LGeoSIMOntology:size",
+    "ideb": "LGeoSIMOntology:ideb",
+    "schoolPrincipal": "LGeoSIMOntology:schoolPrincipal",
+    "year": "LGeoSIMOntology:year",
+    "shifts": "LGeoSIMOntology:shifts",
+    "inepCodSch": "LGeoSIMOntology:inepCodSch",
+    "direc": "LGeoSIMOntology:direc",
+    "employees": "LGeoSIMOntology:employees",
+    "teachersSch": "LGeoSIMOntology:teachersSch",
+    "administrative": "LGeoSIMOntology:administrative",
+
+    "hasTeachingLevel": {	
+      "@id": "LGeoSIMOntology:hasTeachingLevel",
+      "@container": "@list"
+    },
+    "locatedAt": {
+      "@id": "LGeoSIMOntology:locatedAt",
+      "@type": "@id"
+    }
+  }    
+}
+

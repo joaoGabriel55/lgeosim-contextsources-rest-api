@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type",
+ 
+    "DomainLayer": "LGeoSIMOntology:DomainLayer",
+    "CityManagementElement": "LGeoSIMOntology:CityManagementElement",
+    "Country": "LGeoSIMOntology:City",
+    "State": "LGeoSIMOntology:State",
+    "City": "LGeoSIMOntology:City",
+    "District": "LGeoSIMOntology:District",
+    "Zone": "LGeoSIMOntology:Zone",
+    "NeighborHood": "LGeoSIMOntology:NeighborHood",
+    "Block": "LGeoSIMOntology:Block",
+    "School": "LGeoSIMOntology:School",
+    "Service": "LGeoSIMOntology:Service",
+    "PoliceStation": "LGeoSIMOntology:PoliceStation",
+
+    "description":"https://schema.org/description",
+
+    "isAbout": {
+      "@id": "LGeoSIMOntology:isAbout",
+      "@type": "@id"
+    },
+
+    "isOver": {
+      "@id": "LGeoSIMOntology:isOver",
+      "@type": "@id"
+    },
+
+
+    "hasDomainElement": {
+      "@id": "LGeoSIMOntology:hasDomainElement",
+      "@type": "@id",
+      "@container": "@list"
+    }
+  }
+}
+

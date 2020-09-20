@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type",
+ 
+    "TeachingLevel": "LGeoSIMOntology:TeachingLevel",
+    "School": "LGeoSIMOntology:School",
+    "TeachingModality": "LGeoSIMOntology:TeachingModality",
+
+    "description":"LGeoSIMOntology:description",
+
+
+    "hasTeachingModality": {	
+      "@id": "LGeoSIMOntology:hasTeachingModality",
+      "@container": "@list"
+    },
+    "attachedToSchoolTL": {
+      "@id": "LGeoSIMOntology:attachedToSchoolTL",
+      "@type": "@id"
+    }
+  }    
+}
+

@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type",
+ 
+    "Series": "LGeoSIMOntology:Series",
+    "SeriesClass": "LGeoSIMOntology:SeriesClass",
+    "TeachingModality": "LGeoSIMOntology:TeachingModality",
+
+    "description":"https://schema.org/description",
+    "classes": "LGeoSIMOntology:classes",
+    "approvedSer": "LGeoSIMOntology:approvedSer",
+    "disapprovedSer": "LGeoSIMOntology:disapprovedSer",
+    "expectedAge": "LGeoSIMOntology:expectedAge",
+
+    "hasClass": {	
+      "@id": "LGeoSIMOntology:hasClass",
+      "@container": "@list"
+    },	
+    "attatchedToTechingModality": {
+      "@id": "LGeoSIMOntology:attatchedToTechingModality",
+      "@type": "@id"
+    }
+  }    
+}
+

@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type",
+ 
+    "Discipline": "LGeoSIMOntology:Discipline",
+    "SeriesClass": "LGeoSIMOntology:SeriesClass",
+
+    "codDisc": "LGeoSIMOntology:codDisc",
+    "ementa": "LGeoSIMOntology:ementa",
+    "approvedDisc": "LGeoSIMOntology:approvedDisc",
+    "disapprovedDisc": "LGeoSIMOntology:disapprovedDisc",
+    "evadedDisc": "LGeoSIMOntology:evadedDisc",
+    "description":"https://schema.org/description",
+    "discCH": "LGeoSIMOntology:discCH",
+
+    "attatchedToSeriesClassD": {
+      "@id": "LGeoSIMOntology:attatchedToSeriesClassD",
+      "@type": "@id"
+    }
+  }    
+}
+
