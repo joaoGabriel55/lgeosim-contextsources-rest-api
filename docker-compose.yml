@@ -1,0 +1,11 @@
+version: '2'
+services:
+  lgeosim-context-sources-app-container:
+    image: lgeosim-context-sources-app-container
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /data/lgeosim-context-sources-app
+    ports:
+      - "4444:4444"
